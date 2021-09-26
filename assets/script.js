@@ -3,11 +3,13 @@ var dateToday = moment().format("dddd, MMMM Do YYYY");
 $("#currentDay").html(dateToday);
 
 var trackTime = function() {
+  // start of the work day, 9am
   let count = 9
   var currentHour = moment().hour();
   
     // changing time block background color based on time
   $(".time-block").each(function() {
+    //iterate between the hours 9-17
     var blockTime = count;
     count++
     // based on the time, change color for present, past and future
@@ -41,6 +43,7 @@ $(".saveBtn").on("click", function() {
 })
 
 // adding and retrieving textarea information from localStorage that is saved
+$("#9-hour .description").val(localStorage.getItem("9-hour"));
 $("#10-hour .description").val(localStorage.getItem("10-hour"));
 $("#11-hour .description").val(localStorage.getItem("11-hour"));
 $("#12-hour .description").val(localStorage.getItem("12-hour"));
