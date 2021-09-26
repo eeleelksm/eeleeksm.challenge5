@@ -54,5 +54,3 @@ $("#16-hour .description").val(localStorage.getItem("16-hour"));
 $("#17-hour .description").val(localStorage.getItem("17-hour"));
 
 trackTime();
-
-
