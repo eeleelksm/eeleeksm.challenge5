@@ -1,10 +1,10 @@
-# Module 5 Challenge - Work Day Scheduler
+# Work Day Scheduler
 
-## Challenge Details
+##  Details
 In this challenge we were asked to create a simple calendar application that allows the user to save events for each hour of their work day. This application should run in the browser and feature dynamically updated HTML and CSS powered by jQuery. The application must also use the Moment.js library to work with date and time.
 
 ## Work Day Scheduler Link
-The following link navigates to the Work Day Scheduler: https://eeleelksm.github.io/eeleelksm.challenge5/
+The following link navigates to the Work Day Scheduler: https://eeleelksm.github.io/work-day/
 
 ## Screenshots
 ![workdayscheduler-1](https://user-images.githubusercontent.com/40374896/134821784-4fa700ec-31db-4771-9549-8381c3d98c1f.png)
